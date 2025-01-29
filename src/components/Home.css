@@ -1,6 +1,6 @@
 .homePage {
   max-width: 100%;
-  height: calc(100vh - 80px);
+  height: 90vh;
   height: auto;
   display: flex;
   flex-direction: column;

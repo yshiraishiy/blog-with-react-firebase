@@ -16,7 +16,7 @@
 body {
   background-color: rgb(212, 226, 248);
   margin: 0;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 @media (prefers-color-scheme: light) {
