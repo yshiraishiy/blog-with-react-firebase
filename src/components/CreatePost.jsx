@@ -44,11 +44,11 @@ export const CreatePost = ({ isAuth }) => {
         </div>
         <div className="inputPost">
           <div>投稿</div>
+          <textarea
+            placeholder="投稿内容を記入"
+            onChange={(e) => setPostText(e.target.value)}
+          ></textarea>
         </div>
-        <textarea
-          placeholder="投稿内容を記入"
-          onChange={(e) => setPostText(e.target.value)}
-        ></textarea>
         <button className="postButton" onClick={createPost}>
           投稿する
         </button>
